@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_tutorial_astudio/pages/login_page.dart';
 import 'package:flutter_tutorial_astudio/utils/routes.dart';
-import 'package:google_fonts/google_fonts.dart';
+import 'package:flutter_tutorial_astudio/widgets/themes.dart';
 
 import 'pages/home_page.dart';
 
@@ -9,8 +9,9 @@ void main() {
   runApp(MyApp());
 }
 
-//54.18
-//1.08.27
+//////54.18
+////1.08.27
+//3.10.57
 
 class MyApp extends StatelessWidget {
   @override
@@ -18,9 +19,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       themeMode: ThemeMode.light,
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-          primarySwatch: Colors.deepPurple,
-          fontFamily: GoogleFonts.ubuntu().fontFamily),
+      theme: MyTheme.lightTheme(context),
+      darkTheme: MyTheme.darkTheme(context),
       initialRoute: MyRoutes.homeRoute,
       routes: {
         // "/": (context) => LoginPage(),
