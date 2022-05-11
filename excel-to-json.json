@@ -1,0 +1,19 @@
+{
+  "Sheet1": [
+    {
+      "id": 1,
+      "Name": "Ahmed",
+      "Email": "ahmed@heer.com"
+    },
+    {
+      "id": 2,
+      "Name": "Nola",
+      "Email": "pera163@peraki.com"
+    },
+    {
+      "id": 3,
+      "Name": "Heraku",
+      "Email": "kkeena@gmail.com"
+    }
+  ]
+}
